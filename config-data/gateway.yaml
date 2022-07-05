@@ -8,4 +8,4 @@ spring:
         - id: pregunta_2
           uri: lb://pregunta_2
           predicates:
-            - Path=/productos/
+            - Path=/productos/**
