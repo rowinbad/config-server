@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: pregunta_2
+          uri: lb://pregunta_2
+          predicates:
+            - Path=/productos/
