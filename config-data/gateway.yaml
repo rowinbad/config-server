@@ -20,3 +20,7 @@ spring:
           uri: lb://empleados
           predicates:
             - Path=/empleados/**
+        - id: horarios
+          uri: lb://horarios
+          predicates:
+            - Path=/horarios/**
