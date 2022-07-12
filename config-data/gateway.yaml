@@ -24,3 +24,7 @@ spring:
           uri: lb://horarios
           predicates:
             - Path=/horarios/**
+        - id: reportes
+          uri: lb://reportes
+          predicates:
+            - Path=/reportes/**
